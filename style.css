@@ -1,0 +1,93 @@
+*before, *after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  html, body{
+    height: 100%;
+  }
+  .uviverse{
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+  }
+  .page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .parallax{
+    position: relative;
+    height: 100%;
+  }
+  .planets{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .galaxy{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url("https://foni.club/uploads/posts/2023-02/1675616711_foni-club-p-fon-temnii-kosmos-dlya-rabochego-stola-1.jpg") 0 0 / cover no-repeat;
+  }
+  .planet1{
+    z-index: 1;
+    background: url("https://www.pngmart.com/files/5/Mercury-PNG-Transparent-Image.png") right / 43% no-repeat;
+  }
+  .planet2{
+    z-index: 1;
+    background: url("https://www.pngall.com/wp-content/uploads/11/Venus-PNG-Background.png") left / 26% no-repeat;
+  }
+  .planet3{
+    background: url("https://www.pngplay.com/wp-content/uploads/8/World-Earth-Transparent-Background.png") center top / 75% no-repeat;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  .content{
+    position: relative;
+  }
+  .content_body{
+    max-width: 1170px;
+    margin: 0px auto;
+  }
+  .content_header{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+  }
+  .content_title{
+    font-size: 100px;
+    text-align: center;
+    z-index: 1;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    color: white;
+    text-shadow: 3px 3px 6px;
+  }
+  .content_subtitle{
+    font-size: 90px;
+    text-align: center;
+    z-index: 1;
+    color: white;
+    text-shadow: 1px 1px 5px;
+  }
+  .text{
+    padding: 25px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    text-shadow: 1px 1px 5px;
+  }
